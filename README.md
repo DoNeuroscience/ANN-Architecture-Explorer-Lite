@@ -99,7 +99,7 @@ The smoothing slider helps read noisy training curves, especially useful for reg
 After training, a summary table with automatic diagnostic labels is generated — flagging overfitting, underfitting, generalization quality, and relative speed.
 
 <p align="center">
-  <img src="DemoFiles/Auto_DemoSum.png" width="60%" alt="Auto MPG — Performance summary table with diagnostic labels">
+  <img src="DemoFiles/Auto_DemoSum01.png" width="60%" alt="Auto MPG — Performance summary table with diagnostic labels">
 </p>
 <p align="center"><i>Auto MPG — final performance summary table with diagnostic labels for each configuration</i></p>
 
