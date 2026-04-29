@@ -7,9 +7,7 @@ You can:
 - **customize it** by loading your own dataset and defining your own ANN configurations with the provided template and parameter reference. Cells in which you can make changes are clearly marked with comments. The rest of the notebook is ready to run as-is, with no code changes needed beyond defining your dataset and configs
 
 
-https://github.com/user-attachments/assets/placeholder-for-demo-video
-
-> *Replace the link above with your uploaded `ANN_ArchEx_lite_DemoRec01.mov` after pushing to GitHub.*
+https://github.com/user-attachments/assets/d7fbb53d-af14-4d5e-91e8-0b51ffcd9d10
 
 ---
 
