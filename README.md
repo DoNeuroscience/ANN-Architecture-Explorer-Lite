@@ -68,19 +68,16 @@ Five plot views are available, selectable via widget toggles:
 You can compare all configs against each other at once including train, dev and test performance, or filter to specific configs and toggle between train/dev curves for a cleaner view of training dynamics:
 
 <p align="center">
-  <img src="DemoFiles/Wine_DemoShot01.png" width="90%" alt="Wine Quality dataset — all five views displayed simultaneously">
+  <img src="DemoFiles/Wine_DemoShot01.png" width="90%" alt="Wine Quality dataset () binary— all five views displayed simultaneously">
 </p>
 <p align="center"><i>Wine Quality dataset (binary) — all five interactive views displayed at once. Side scroll to view all</i></p>
 
 <p align="center">
-  <img src="DemoFiles/Iris_DemoShot01.png" width="60%" alt="Iris — comparing two configs with loss curves">
+  <img src="DemoFiles/Iris_DemoShot01.png" width="45%" alt="Iris (multiclass) — comparing two configs with loss curves">
+  <img src="DemoFiles/Auto_DemoShot03.png" width="45%" alt="Auto MPG (regression) — comparing two configs with loss curves">
 </p>
-<p align="center"><i>Iris dataset (multiclass) - Filtering to compare SGD+Momentum vs. Tanh (no regularization) training loss without dev loss curves</i></p>
+<p align="center"><i>Comparing toggle options. Left: Iris dataset (multiclass) - Filtering to compare SGD+Momentum vs. Tanh (no regularization) training loss without dev loss curves · Right: Auto MPG dataset (regression) - Comparing Final accuracy for train, dev and test sets across all configurations</i></p>
 
-<p align="center">
-  <img src="DemoFiles/Auto_DemoShot03.png" width="60%" alt="Auto MPG — comparing two configs with loss curves">
-</p>
-<p align="center"><i>Auto MPG dataset (regression) - Comparing Final accuracy for train, dev and test sets across all configurations</i></p>
 
 The smoothing slider helps read noisy training curves, especially useful for regression and small datasets:
 
