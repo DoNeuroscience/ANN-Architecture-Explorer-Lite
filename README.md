@@ -76,7 +76,7 @@ You can compare all configs against each other at once including train, dev and 
   <img src="DemoFiles/Iris_DemoShot01.png" width="45%" alt="Iris (multiclass) — comparing two configs with loss curves">
   <img src="DemoFiles/Auto_DemoShot03.png" width="45%" alt="Auto MPG (regression) — comparing two configs with loss curves">
 </p>
-<p align="center"><i>Comparing toggle options. Left: Iris dataset (multiclass) - Filtering to compare SGD+Momentum vs. Tanh (no regularization) training loss without dev loss curves · Right: Auto MPG dataset (regression) - Comparing Final accuracy for train, dev and test sets across all configurations</i></p>
+<p align="center"><i>Comparing toggle options. <br>Left: Iris dataset (multiclass) - Filtering to compare SGD+Momentum vs. Tanh (no regularization) training loss without dev loss curves · <br>Right: Auto MPG dataset (regression) - Comparing Final accuracy for train, dev and test sets across all configurations</i></p>
 
 
 The smoothing slider helps read noisy training curves, especially useful for regression and small datasets:
@@ -91,7 +91,7 @@ The smoothing slider helps read noisy training curves, especially useful for reg
   <img src="DemoFiles/Auto_DemoShot01.png" width="45%" alt="Auto MPG — raw curves">
   <img src="DemoFiles/Auto_DemoShot02.png" width="45%" alt="Auto MPG — smoothed curves">
 </p>
-<p align="center"><i>Comparing training and dev loss for all configurations. Left: raw R² curves (smoothing=1) · Right: smoothed (smoothing=4)</i></p>
+<p align="center"><i>Comparing training and dev loss for all configurations. <br>Left: raw R² curves (smoothing=1) · <br>Right: smoothed (smoothing=4)</i></p>
 
 
 ### Summary Table
