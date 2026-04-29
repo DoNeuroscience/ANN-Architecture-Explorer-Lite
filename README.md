@@ -85,7 +85,7 @@ The smoothing slider helps read noisy training curves, especially useful for reg
   <img src="DemoFiles/Auto_DemoShot04.png" width="45%" alt="Auto MPG — raw curves">
   <img src="DemoFiles/Auto_DemoShot05.png" width="45%" alt="Auto MPG — smoothed curves">
 </p>
-<p align="center"><i>Comparing training and dev loss for SGD+Momentum vs. Tanh (no regularization). Left: raw R² curves (smoothing=1) · Right: smoothed (smoothing=4)</i></p>
+<p align="center"><i>Comparing training and dev loss for SGD+Momentum vs. Tanh (no regularization). <br>Left: raw R² curves (smoothing=1) · <br>Right: smoothed (smoothing=4)</i></p>
 
 <p align="center">
   <img src="DemoFiles/Auto_DemoShot01.png" width="45%" alt="Auto MPG — raw curves">
