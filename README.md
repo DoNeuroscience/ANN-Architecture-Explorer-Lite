@@ -68,31 +68,31 @@ Five plot views are available, selectable via widget toggles:
 You can compare all configs against each other at once including train, dev and test performance, or filter to specific configs and toggle between train/dev curves for a cleaner view of training dynamics:
 
 <p align="center">
-  <img src="DemoScreenshots/Wine_DemoShot01.png" width="90%" alt="Wine Quality dataset — all five views displayed simultaneously">
+  <img src="DemoFiles/Wine_DemoShot01.png" width="90%" alt="Wine Quality dataset — all five views displayed simultaneously">
 </p>
 <p align="center"><i>Wine Quality dataset (binary) — all five interactive views displayed at once. Side scroll to view all</i></p>
 
 <p align="center">
-  <img src="DemoScreenshots/Iris_DemoShot01.png" width="60%" alt="Iris — comparing two configs with loss curves">
+  <img src="DemoFiles/Iris_DemoShot01.png" width="60%" alt="Iris — comparing two configs with loss curves">
 </p>
 <p align="center"><i>Iris dataset (multiclass) - Filtering to compare SGD+Momentum vs. Tanh (no regularization) training loss without dev loss curves</i></p>
 
 <p align="center">
-  <img src="DemoScreenshots/Auto_DemoShot03.png" width="60%" alt="Auto MPG — comparing two configs with loss curves">
+  <img src="DemoFiles/Auto_DemoShot03.png" width="60%" alt="Auto MPG — comparing two configs with loss curves">
 </p>
 <p align="center"><i>Auto MPG dataset (regression) - Comparing Final accuracy for train, dev and test sets across all configurations</i></p>
 
 The smoothing slider helps read noisy training curves, especially useful for regression and small datasets:
 
 <p align="center">
-  <img src="DemoScreenshots/Auto_mpg_DemoShot04.png" width="45%" alt="Auto MPG — raw curves">
-  <img src="DemoScreenshots/Auto_mpg_DemoShot05.png" width="45%" alt="Auto MPG — smoothed curves">
+  <img src="DemoFiles/Auto_DemoShot04.png" width="45%" alt="Auto MPG — raw curves">
+  <img src="DemoFiles/Auto_DemoShot05.png" width="45%" alt="Auto MPG — smoothed curves">
 </p>
 <p align="center"><i>Comparing training and dev loss for SGD+Momentum vs. Tanh (no regularization). Left: raw R² curves (smoothing=1) · Right: smoothed (smoothing=4)</i></p>
 
 <p align="center">
-  <img src="DemoScreenshots/Auto_mpg_DemoShot01.png" width="45%" alt="Auto MPG — raw curves">
-  <img src="DemoScreenshots/Auto_mpg_DemoShot02.png" width="45%" alt="Auto MPG — smoothed curves">
+  <img src="DemoFiles/Auto_DemoShot01.png" width="45%" alt="Auto MPG — raw curves">
+  <img src="DemoFiles/Auto_DemoShot02.png" width="45%" alt="Auto MPG — smoothed curves">
 </p>
 <p align="center"><i>Comparing training and dev loss for all configurations. Left: raw R² curves (smoothing=1) · Right: smoothed (smoothing=4)</i></p>
 
@@ -102,7 +102,7 @@ The smoothing slider helps read noisy training curves, especially useful for reg
 After training, a summary table with automatic diagnostic labels is generated — flagging overfitting, underfitting, generalization quality, and relative speed.
 
 <p align="center">
-  <img src="DemoScreenshots/Auto_mpg_DemoShot06.png" width="60%" alt="Auto MPG — Performance summary table with diagnostic labels">
+  <img src="DemoFiles/Auto_DemoSum.png" width="60%" alt="Auto MPG — Performance summary table with diagnostic labels">
 </p>
 <p align="center"><i>Auto MPG — final performance summary table with diagnostic labels for each configuration</i></p>
 
